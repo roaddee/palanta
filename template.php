@@ -53,7 +53,7 @@
 	<?php $this->load->view("$folder_themes/commons/footer"); ?>
 	</div>
 	<script>
-	$.ajax({type:"GET",url:"https://rumahgadang.my.id/tespusako.php",data:{kode:'<?= $data_config['kode_desa']; ?>'},cache:!0,dataType:"json",crossDomain:!0,headers:{"X-Request-Source":"batuah-opensid"},success:a=>{a.status||(window.location="https://romtem.my.id/batuahaktivasi")},error:(a,t,s)=>{console.log(s)}});
+	//$.ajax({type:"GET",url:"https://rumahgadang.my.id/tespusako.php",data:{kode:'<?= $data_config['kode_desa']; ?>'},cache:!0,dataType:"json",crossDomain:!0,headers:{"X-Request-Source":"batuah-opensid"},success:a=>{a.status||(window.location="https://romtem.my.id/batuahaktivasi")},error:(a,t,s)=>{console.log(s)}});
 	</script>
 </body>
 </html>
